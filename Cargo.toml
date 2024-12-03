@@ -1,0 +1,11 @@
+[package]
+name = "nightingale"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eframe = "0.29"
+walkdir = "2"
+serde_json = "1"
+serde = { version = "1", features = ["derive"] }
+rfd = "0.15"
